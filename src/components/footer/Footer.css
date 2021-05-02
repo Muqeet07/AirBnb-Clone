@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    justify-content: center;
+    margin: 50px auto 0px auto;
+    min-width: 1365px !important;
+    max-width: 1920px !important;
+}
+
+
+/* Tablet Friendly */ 
+
+@media (max-width : 1360px) {
+    .footer {
+        min-width: 100% !important;
+    }
+}

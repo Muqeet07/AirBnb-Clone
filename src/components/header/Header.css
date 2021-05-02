@@ -1,0 +1,260 @@
+
+.headercontainer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.header__above {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 0px;
+    display: none;
+}
+
+.header__above__search {
+    width: 80%;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 0px 10px;
+    background-color: white;
+}
+
+.header__above__search > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 20px 70px 20px 100px;
+    justify-content: space-between;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.header__logo {
+    object-fit: contain;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.header__ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.header__li {
+    padding: 10px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.header__searchbar {
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    border: 1px solid lightgray;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__searchbar__text {
+    flex: 1;
+    color: gray;
+}
+
+.header__searchbar__iconcontainer {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    display: flex;
+}
+
+.header__searchbar__iconcontainer > .MuiSvgIcon-root {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    color: white;
+}
+
+
+.header__searchcalendercontainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    top: 90%;
+}
+
+.header__search {
+    width: 800px;
+    height: 70px;
+    border-radius: 70px;
+    background-color: white;
+    border: 1px solid lightgray;
+    z-index: 100;
+    display: flex;
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+.header__search__input {
+    width: 30%;
+    height: 70px;
+    border-radius: 70px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    transition: 0.7s;
+}
+
+.header__search__input:hover {
+    background-color: lightgray;
+    transition: 0.7s;
+}
+
+
+.header__search__searchicon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: crimson;
+    box-sizing: border-box;
+    margin-left: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.header__search__searchicon > .MuiSvgIcon-root {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+
+.header__calender {
+    display: flex;
+}
+
+.header__right {
+    display: flex;
+}
+
+.header__right__button {
+    display: flex;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    border-radius: 40px;
+    height: 40px;
+    align-items: center;
+}
+
+.header__right__button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.header__right__button > .MuiSvgIcon-root {
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.header__below {
+    width: 100%;
+    box-sizing: border-box;
+    height: 80px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+
+/* Tablet Friendly */
+
+@media (max-width: 945px) {
+
+    .headercontainer {
+        min-width: 100%;
+    }
+
+    .header__links {
+        display: none !important;
+    }
+
+    .header__below {
+        display: flex;
+    }
+
+    .header__below .header__links {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .header__searchcalendercontainer {
+        width: 90%;
+        top: 90%;
+    }
+
+    .header__search {
+        width: 100%;
+    }
+
+}
+
+/* Mobile Friendly */
+
+@media (max-width : 650px) {
+
+    .header {
+        display: none;
+    }
+
+    .header__below {
+        display : none !important;
+    }
+
+    .header__searchcalendercontainer {
+        display: none;
+    }
+
+    .header__above {
+        display: flex;
+        justify-content: center;
+    }
+}

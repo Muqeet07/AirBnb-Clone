@@ -1,0 +1,276 @@
+{
+    "destinationsforartsandculture" : [
+        {
+            "toptext" : "Phoenix",
+            "bottomtext" : "Arizona"
+        },
+        {
+            "toptext" : "Hot Springs",
+            "bottomtext" : "Arkansas"
+        },
+        {
+            "toptext" : "Los Angeles",
+            "bottomtext" : "California"
+        },
+        {
+            "toptext" : "San Diego",
+            "bottomtext" : "California"
+        },
+        {
+            "toptext" : "San Francisco",
+            "bottomtext" : "California"
+        },
+        {
+            "toptext" : "Barcelona",
+            "bottomtext" : "Catelonia"
+        },
+        {
+            "toptext" : "Prague",
+            "bottomtext" : "Czechia"
+        },
+        {
+            "toptext" : "Washington",
+            "bottomtext" : "District of Columbia"
+        },
+        {
+            "toptext" : "Keswick",
+            "bottomtext" : "England"
+        },
+        {
+            "toptext" : "London",
+            "bottomtext" : "England"
+        },
+        {
+            "toptext" : "Scarborough",
+            "bottomtext" : "England"
+        },
+        {
+            "toptext" : "Sherwood Forest",
+            "bottomtext" : "England"
+        },
+        {
+            "toptext" : "York",
+            "bottomtext" : "England"
+        },
+        {
+            "toptext" : "Paris",
+            "bottomtext" : "France"
+        },
+        {
+            "toptext" : "Rhodes",
+            "bottomtext" : "Greece"
+        },
+        {
+            "toptext" : "Nashville",
+            "bottomtext" : "Indiana"
+        },
+        {
+            "toptext" : "Dublin",
+            "bottomtext" : "Ireland"
+        },
+        {
+            "toptext" : "Florence",
+            "bottomtext" : "Italy"
+        },
+        {
+            "toptext" : "Rome",
+            "bottomtext" : "Italy"
+        },
+        {
+            "toptext" : "Lisbon",
+            "bottomtext" : "Lisbon"
+        }                                                        
+    ],
+
+    "destinationsforoutdooradventure" : [
+        {
+            "toptext" : "Lake Martin",
+            "bottomtext" : "Alabama"
+        },
+        {
+            "toptext" : "Banff",
+            "bottomtext" : "Alberta"
+        },
+        {
+            "toptext" : "Nerja",
+            "bottomtext" : "Andalucia"
+        },
+        {
+            "toptext" : "Greer",
+            "bottomtext" : "Arizona"
+        },
+        {
+            "toptext" : "Lake Havasu City",
+            "bottomtext" : "Arizona"
+        },
+        {
+            "toptext" : "Lake Powell",
+            "bottomtext" : "Arizona"
+        },
+        {
+            "toptext" : "North Rim",
+            "bottomtext" : "Arizona"
+        },
+        {
+            "toptext" : "Payson",
+            "bottomtext" : "Arizona"
+        },
+        {
+            "toptext" : "Dinner Plain",
+            "bottomtext" : "Australia"
+        },
+        {
+            "toptext" : "Streaky Bay",
+            "bottomtext" : "Austrtalia"
+        },
+        {
+            "toptext" : "Victoria",
+            "bottomtext" : "British Columbia"
+        },
+        {
+            "toptext" : "Palm Desert",
+            "bottomtext" : "California"
+        },
+        {
+            "toptext" : "Cultus Lake",
+            "bottomtext" : "Canada"
+        },
+        {
+            "toptext" : "Aspen",
+            "bottomtext" : "Colorado"
+        },
+        {
+            "toptext" : "Corfu",
+            "bottomtext" : "Greece"
+        },
+        {
+            "toptext" : "Big Sky",
+            "bottomtext" : "Montana"
+        }                                                                         
+    ],
+
+    "mountaincabins" : [
+        {
+            "toptext" : "Mentone",
+            "bottomtext" : "Alabama"
+        },
+        {
+            "toptext" : "Sedona",
+            "bottomtext" : "Arizona"
+        },
+        {
+            "toptext" : "Helen",
+            "bottomtext" : "Georgia"
+        },
+        {
+            "toptext" : "Island Park",
+            "bottomtext" : "Idaho"
+        },
+        {
+            "toptext" : "Boone",
+            "bottomtext" : "North Carolina"
+        },
+        {
+            "toptext" : "Cabins",
+            "bottomtext" : "West Virginia"
+        }                       
+    ],
+
+    "beachdestinations" : [
+        {
+            "toptext" : "Dauphin Island",
+            "bottomtext" : "Alabama"
+        },
+        {
+            "toptext" : "Fort Morgan",
+            "bottomtext" : "Alabama"
+        },
+        {
+            "toptext" : "Bruny Island",
+            "bottomtext" : "Australia"
+        },
+        {
+            "toptext" : "Lancelin",
+            "bottomtext" : "Australia"
+        },
+        {
+            "toptext" : "Moonta Bay",
+            "bottomtext" : "Australia"
+        },
+        {
+            "toptext" : "Cambria",
+            "bottomtext" : "California"
+        },
+        {
+            "toptext" : "Big Sur",
+            "bottomtext" : "California"
+        },
+        {
+            "toptext" : "Long Beach",
+            "bottomtext" : "California"
+        },
+        {
+            "toptext" : "Mission Beach",
+            "bottomtext" : "California"
+        },
+        {
+            "toptext" : "Blackpool",
+            "bottomtext" : "England"
+        },
+        {
+            "toptext" : "Captiva",
+            "bottomtext" : "Florida"
+        },
+        {
+            "toptext" : "Cocoa Beach",
+            "bottomtext" : "Florida"
+        }                                                     
+    ],
+
+    "populardestinations" : [
+        {
+            "toptext" : "Canmore",
+            "bottomtext" : "Alberta"
+        },
+        {
+            "toptext" : "Marbella",
+            "bottomtext" : "Andalusia"
+        },
+        {
+            "toptext" : "Prescott",
+            "bottomtext" : "Arizona"
+        },
+        {
+            "toptext" : "Sonoma",
+            "bottomtext" : "California"
+        },
+        {
+            "toptext" : "Dubai",
+            "bottomtext" : "Dubai"
+        },
+        {
+            "toptext" : "Brighton",
+            "bottomtext" : "England"
+        },
+        {
+            "toptext" : "Bude",
+            "bottomtext" : "England"
+        },
+        {
+            "toptext" : "Orlando",
+            "bottomtext" : "Florida"
+        },
+        {
+            "toptext" : "Crete",
+            "bottomtext" : "Greece"
+        },
+        {
+            "toptext" : "Oahu",
+            "bottomtext" : "Hawaii"
+        },
+        {
+            "toptext" : "Capri",
+            "bottomtext" : "Italy"
+        }         
+    ]
+}

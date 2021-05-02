@@ -1,0 +1,17 @@
+
+.header__search__button {
+    width: 19%;
+    height: 70px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.7s;
+    padding-left: 10px;
+}
+
+.header__search__button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.7s;
+}

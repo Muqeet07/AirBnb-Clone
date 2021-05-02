@@ -1,0 +1,19 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    margin-top: 100px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1920px !important;
+    min-width: 1365px !important;
+}
+
+
+/* Tablet Friendly */
+
+@media (max-width : 1350px) {
+    .home {
+        min-width: 100% !important;
+    }
+}

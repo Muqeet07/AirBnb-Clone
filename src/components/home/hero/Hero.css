@@ -1,0 +1,24 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+}
+
+.hero__image {
+    width: 95%;
+    height: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.hero__text {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-size: 30px;
+}

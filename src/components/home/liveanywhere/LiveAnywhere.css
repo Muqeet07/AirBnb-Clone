@@ -1,0 +1,30 @@
+.liveanywhere {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 0px 20px;
+    width: 100%;
+}
+
+.liveanywhere__title {
+    margin-bottom: 20px;
+}
+
+.liveanywhere__liveplacescontainer {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+.liveanywhere__liveplacescontainer::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Mobile Friendly */
+
+@media (max-width : 600px) {
+    .liveanywhere__title {
+        font-size: 25px;
+    }
+}

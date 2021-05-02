@@ -1,0 +1,74 @@
+[
+    {
+        "image" : "https://a0.muscache.com/im/pictures/miso/Hosting-47752729/original/e56bfdff-05a7-4c58-ba49-f5ac7b436ef7.jpeg?im_w=960",
+        "firsttext" : "Private room in Murree",
+        "secondtext" : "Spacious and Comfy Room",
+        "thirdtext" : "2 guests .1 bedroom .1 bed .1 private bath",
+        "fourthtext" : "Kitchen .Wifi .Free parking",
+        "star" : "5.0",
+        "price" : "20"
+    },
+    {
+        "image" : "https://a0.muscache.com/im/pictures/a7587ec7-622e-4c5f-b322-aae413fb2d78.jpg?im_w=960",
+        "firsttext" : "Entire Appartment in Murree",
+        "secondtext" : "Midway Two One",
+        "thirdtext" : "3 guests .1 bedroom .0 beds .1 bath",
+        "fourthtext" : "Kitchen .Wifi .Free parking",
+        "star" : "5.0",
+        "price" : "31"
+    },
+    {
+        "image" : "https://a0.muscache.com/im/pictures/dea47eb1-fcd0-4d52-954f-8a939bc56e3a.jpg?im_w=960",
+        "firsttext" : "Entire Appartment in Murree",
+        "secondtext" : "Midway Two Two",
+        "thirdtext" : "2 guests .1 bedroom .1 bed .1 bath",
+        "fourthtext" : "Kitchen .Wifi .Free parking",
+        "star" : "4.86",
+        "price" : "26"
+    },
+    {
+        "image" : "https://a0.muscache.com/im/pictures/b25330c9-7e2e-4c9c-904b-8dfcd32d3312.jpg?im_w=960",
+        "firsttext" : "Entire Cottage in Ocha",
+        "secondtext" : "Luxury Cottage with Private Lawn",
+        "thirdtext" : "5 guests .1 bedroom .4 beds .1 bath",
+        "fourthtext" : "Kitchen .Wifi",
+        "star" : "4,86",
+        "price" : "48"
+    },
+    {
+        "image" : "https://a0.muscache.com/im/pictures/70d71940-9610-46b8-b028-cc190bbfe6e9.jpg?im_w=960",
+        "firsttext" : "Entire Appartment in Murree",
+        "secondtext" : "Khyz Views",
+        "thirdtext" : "8 guests .3 bedrooms .7 beds .2.5 baths",
+        "fourthtext" : "Kitchen .Wifi .Free parking",
+        "star" : "4.88",
+        "price" : "63"
+    },
+    {
+        "image" : "https://a0.muscache.com/im/pictures/miso/Hosting-45070251/original/3d4c929f-3376-4445-be1c-a94b5dd660ad.jpeg?im_w=960",
+        "firsttext" : "Entire Appartment in Bhurban",
+        "secondtext" : "Bhurban Hill Appartments",
+        "thirdtext" : "6 guests .1 bedroom 3. beds 1. bath",
+        "fourthtext" : "Kitchen .Free parking",
+        "star" : "4.83",
+        "price" : "35"
+    },
+    {
+        "image" : "https://a0.muscache.com/im/pictures/a8f6a489-d236-4d2d-a57b-a95d928970af.jpg?im_w=960",
+        "firsttext" : "Entire Serviced appartment in Murree",
+        "secondtext" : "Galiyaat View Appartment . (one)",
+        "thirdtext" : "6 guests .2 bedrooms .2 beds .2 baths",
+        "fourthtext" : "Kitchen .Wifi .Free parking",
+        "star" : "4.75",
+        "price" : "30"
+    },
+    {
+        "image" : "https://a0.muscache.com/im/pictures/3179df9c-e30b-4302-9fa7-b232b05731ae.jpg?im_w=960",
+        "firsttext" : "Entire Cottage in Barrian",
+        "secondtext" : "Sanora House",
+        "thirdtext" : "5 guests .1 bedroom .5 beds .1 bath",
+        "fourthtext" : "Kitchen .Free parking",
+        "star" : "5.0",
+        "price" : "65"
+    }
+]

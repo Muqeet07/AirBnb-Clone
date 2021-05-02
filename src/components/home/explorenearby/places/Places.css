@@ -1,0 +1,22 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.places__place {
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.place__image {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.place__text {
+    padding: 15px;
+}

@@ -1,0 +1,29 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.experience__image {
+    border-radius: 10px;
+    object-fit: contain;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.experience__heading {
+    margin-bottom: 5px;
+}
+
+
+
+/* Tablet Friendly */
+
+@media (max-width: 950px) {
+    .experience {
+        min-width: 270px;
+        margin-right: 20px;
+    }
+}

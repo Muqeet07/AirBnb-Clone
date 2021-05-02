@@ -1,0 +1,20 @@
+.stayplace {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.stayplace__toptext {
+    font-size: 17px;
+    color: black;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.stayplace__bottomtext {
+    font-size: 17px;
+    color: gray;
+}

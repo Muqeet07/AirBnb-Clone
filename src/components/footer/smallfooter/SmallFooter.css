@@ -1,0 +1,84 @@
+.smallfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.smallfooter__left {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.smallfooter__left > ul {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.smallfooter__left > ul > li {
+    cursor: pointer;
+}
+
+.smallfooter__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallfooter__right__left {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+
+.smallfooter__right__left:hover {
+    border-bottom: 1px solid gray;
+}
+
+.smallfooter__right__center {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+
+.smallfooter__right__center:hover {
+    border-bottom: 1px solid gray;
+}
+
+.smallfooter__right__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smallfooter__right__right > .MuiSvgIcon-root {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+
+/* Tablet Friendly */
+
+@media (max-width : 950px) {
+    .smallfooter {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .smallfooter__left {
+        margin-bottom: 10px;
+    }
+
+    .smallfooter__left > ul > li {
+        font-size: 12px;
+    }
+}

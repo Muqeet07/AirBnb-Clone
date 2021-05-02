@@ -1,0 +1,49 @@
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 0px 20px;
+    width: 100%;
+}
+
+.inspiration__heading {
+    margin-bottom: 20px;
+}
+
+.inspiration__buttonscontainer {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.button {
+    padding: 10px 0px;
+    background: none;
+    border-bottom: 2px solid transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: darkslategray;
+    cursor: pointer;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.button.active {
+    color: black;
+    border-bottom: 2px solid black;
+    cursor: auto;
+}
+
+
+
+/* Mobile Friendly */
+
+@media (max-width : 600px) {
+
+    .inspiration__heading {
+        font-size: 25px;
+    }
+}

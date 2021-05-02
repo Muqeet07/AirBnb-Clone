@@ -1,0 +1,93 @@
+.place {
+    display: flex;
+    min-width: 270px;
+    max-width: 100%;
+    padding: 30px 0px;
+    border-top: 1px solid lightgray;
+}
+
+.place__imagehere {
+    width: 400px;
+    height: fit-content;
+    margin-right: 50px;
+}
+
+.place__imagehere > img {
+    width: 400px;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.place__textcontainer {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    flex: 1;
+    position: relative;
+}
+
+.place__textcontainer > span {
+    font-size: 16px;
+    color: gray;
+}
+
+.place__textcontainer > h3 {
+    font-size: 25px;
+    margin: 15px 0px 30px 0px;
+}
+
+.place__textcontainer__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.place__textcontainer__bottom__left {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.place__textcontainer__bottom__left > div > .MuiSvgIcon-root {
+    font-size: 18px;
+}
+
+.place__textcontainer__bottom__right {
+    font-size: 20px;
+}
+
+.place__textcontainer__heart {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+
+/* Mobile Friendly */
+
+@media (max-width : 800px) {
+    .place {
+        flex-direction: column;
+    }
+
+    .place__imagehere {
+
+        width: 100%;
+        height: fit-content;
+    }
+
+    .place__imagehere > img {
+       
+        width: 100%;
+    }
+
+    .place__textcontainer {
+        width: 100%;
+        height: 200px;
+        padding-top: 10px;
+    }
+
+    .place__textcontainer > h3 {
+        font-size: 20px;
+    }
+}

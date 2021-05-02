@@ -1,0 +1,6 @@
+.stays {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 100%;
+    justify-content: space-between;
+}

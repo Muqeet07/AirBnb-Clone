@@ -1,0 +1,30 @@
+.explorenearby {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 0px 20px;
+    width: 100%;
+}
+
+.explorenearby__title {
+    margin-bottom: 20px;
+}
+
+.explorenearby__placescontainer {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+.explorenearby__placescontainer::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* Mobile Friendly */ 
+
+@media (max-width : 600px) {
+    .explorenearby__title {
+        font-size: 25px;
+    }
+}
